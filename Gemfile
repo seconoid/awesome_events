@@ -9,8 +9,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
-
 gem 'bootstrap-sass', '3.2.0.0'
+gem 'devise'
 gem 'omniauth', '~> 1.2.1'
 gem 'omniauth-twitter', '~> 1.0.1'
 gem 'omniauth-github'
