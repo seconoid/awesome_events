@@ -27,6 +27,7 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'pry-stack_explorer'
   gem 'rspec-rails', '~> 3.4'
+  gem 'shoulda-matchers', '~> 2.6.0'
 end
 
 group :production do
