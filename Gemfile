@@ -21,16 +21,16 @@ gem 'carrierwave', '~> 0.10.0'
 gem 'mini_magick', '~> 3.7.0'
 
 group :development, :test do
-	gem 'sqlite3'
-	gem 'pry-rails'
-	gem 'pry-doc'
-	gem 'pry-byebug'
-	gem 'pry-stack_explorer'
-	gem 'rspec-rails', '~> 3.4'
+  gem 'sqlite3'
+  gem 'pry-rails'
+  gem 'pry-doc'
+  gem 'pry-byebug'
+  gem 'pry-stack_explorer'
+  gem 'rspec-rails', '~> 3.4'
 end
 
 group :production do
-	gem 'pg', '0.17.1'
-	gem 'rails_12factor', '0.0.2'
-	gem 'puma', '2.11.1'
+  gem 'pg', '0.17.1'
+  gem 'rails_12factor', '0.0.2'
+  gem 'puma', '2.11.1'
 end
