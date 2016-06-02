@@ -26,11 +26,7 @@ group :development, :test do
 	gem 'pry-doc'
 	gem 'pry-byebug'
 	gem 'pry-stack_explorer'
-	gem 'rspec-rails', '~> 3.0.0.beta2', github: 'rspec/rspec-rails'
-	gem 'rspec-core', '~> 3.0.0.beta2', github: 'rspec/rspec-core'
-	gem 'rspec-expectations', '~> 3.0.0.beta2', github: 'rspec/rspec-expectations'
-	gem 'rspec-mocks', '~> 3.0.0.beta2', github: 'rspec/rspec-mocks'		
-	gem 'rspec-support', '~> 3.0.0.beta2', github: 'rspec/rspec-support'
+	gem 'rspec-rails', '3.0.0'
 end
 
 group :production do
