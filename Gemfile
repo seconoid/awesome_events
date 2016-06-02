@@ -26,7 +26,7 @@ group :development, :test do
 	gem 'pry-doc'
 	gem 'pry-byebug'
 	gem 'pry-stack_explorer'
-	gem 'rspec-rails', '3.0.0'
+	gem 'rspec-rails', '~> 3.4'
 end
 
 group :production do
