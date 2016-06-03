@@ -28,6 +28,7 @@ group :development, :test do
   gem 'pry-stack_explorer'
   gem 'rspec-rails', '~> 3.4'
   gem 'shoulda-matchers', '~> 2.6.0'
+  gem 'factory_girl_rails', '~> 4.4.1'
 end
 
 group :production do
